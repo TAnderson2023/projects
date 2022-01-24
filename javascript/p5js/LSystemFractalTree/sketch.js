@@ -62,7 +62,7 @@ function turtle() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   angle = radians(25);
   background(51);
   turtle();
