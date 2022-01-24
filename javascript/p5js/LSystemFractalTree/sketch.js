@@ -1,7 +1,7 @@
 var angle;
 var axiom = 'F';
 var sentence = axiom;
-var len = 100;
+var len;
 
 var rules = [];
 rules[0] = {
@@ -63,6 +63,7 @@ function turtle() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  len = height/4
   angle = radians(25);
   background(51);
   turtle();
